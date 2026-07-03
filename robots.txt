@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://liuchunghsuan7777-spec.github.io/the-practical-pick/sitemap.xml
