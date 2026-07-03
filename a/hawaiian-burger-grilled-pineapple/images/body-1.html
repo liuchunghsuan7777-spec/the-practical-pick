@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif; }
+  .row { display:flex; align-items:center; gap:18px; margin:7px 0; }
+  .label { font-size:19px; font-weight:700; color:#3a2400; white-space:nowrap; }
+  .leader { flex:1; border-top:2px dotted #d9b97a; }
+</style>
+</head>
+<body>
+<div id="card" style="width:800px; box-sizing:border-box; padding:36px 40px;
+     background:linear-gradient(180deg,#fff8e7 0%,#fff 100%);
+     font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;">
+
+  <div style="font-size:27px; font-weight:900; color:#3a2400;">Hawaiian Burger: What's Inside</div>
+  <div style="font-size:16px; color:#b5651d; font-weight:700; margin-top:4px;">Layer-by-layer cross-section, top to bottom</div>
+
+  <div style="display:flex; gap:34px; margin-top:24px; align-items:center;">
+
+    <!-- burger cross-section illustration -->
+    <div style="width:300px; display:flex; flex-direction:column; align-items:center;
+         filter:drop-shadow(0 8px 12px rgba(120,70,0,.28));">
+
+      <!-- top brioche bun -->
+      <div style="width:290px; height:108px; background:radial-gradient(circle at 50% 130%,#f0a847,#e3902f);
+           border-radius:150px 150px 24px 24px; position:relative; overflow:hidden;">
+        <div style="position:absolute; left:95px; top:26px; width:13px; height:7px; background:#fff4d6; border-radius:50%; transform:rotate(-18deg);"></div>
+        <div style="position:absolute; left:150px; top:18px; width:13px; height:7px; background:#fff4d6; border-radius:50%; transform:rotate(12deg);"></div>
+        <div style="position:absolute; left:195px; top:30px; width:13px; height:7px; background:#fff4d6; border-radius:50%; transform:rotate(-8deg);"></div>
+      </div>
+      <!-- grilled pineapple ring -->
+      <div style="width:272px; height:30px; background:#ffd84d; margin-top:-2px; border-radius:8px; position:relative; overflow:hidden;">
+        <div style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+             width:54px; height:18px; background:#f1bd2c; border-radius:8px;"></div>
+        <!-- grill marks -->
+        <div style="position:absolute; left:40px; top:0; width:8px; height:100%; background:#c8902a; opacity:.5; transform:skewX(-20deg);"></div>
+        <div style="position:absolute; left:150px; top:0; width:8px; height:100%; background:#c8902a; opacity:.5; transform:skewX(-20deg);"></div>
+        <div style="position:absolute; left:230px; top:0; width:8px; height:100%; background:#c8902a; opacity:.5; transform:skewX(-20deg);"></div>
+      </div>
+      <!-- teriyaki drizzle -->
+      <div style="width:278px; height:22px; background:#5a3215; margin-top:-2px;
+           clip-path:polygon(0 0,100% 0,100% 50%,88% 100%,74% 50%,60% 100%,48% 50%,36% 100%,22% 50%,10% 100%,0 50%);"></div>
+      <!-- swiss cheese drip -->
+      <div style="width:276px; height:18px; background:#ffce4d; margin-top:-2px;
+           clip-path:polygon(0 0,100% 0,100% 45%,90% 100%,78% 45%,64% 100%,52% 45%,40% 100%,26% 45%,12% 100%,0 60%);"></div>
+      <!-- beef patty -->
+      <div style="width:274px; height:38px; background:#7a4a2b; margin-top:-2px; border-radius:8px;"></div>
+      <!-- lettuce -->
+      <div style="width:280px; height:18px; background:#7cc24a; margin-top:-2px;
+           clip-path:polygon(0 0,100% 0,100% 40%,90% 100%,78% 40%,66% 100%,54% 40%,42% 100%,30% 40%,18% 100%,6% 40%,0 70%);"></div>
+      <!-- bottom bun -->
+      <div style="width:272px; height:44px; background:linear-gradient(#eaa54a,#d98b34); margin-top:-2px;
+           border-radius:0 0 70px 70px;"></div>
+    </div>
+
+    <!-- labels -->
+    <div style="flex:1;">
+      <div class="row"><span class="label">Brioche Bun</span><span class="leader"></span></div>
+      <div style="font-size:14px; color:#9a7b3a; margin:-2px 0 6px 0;">Holds up to juicy toppings</div>
+
+      <div class="row"><span class="label">Grilled Pineapple</span><span class="leader"></span></div>
+      <div style="font-size:14px; color:#9a7b3a; margin:-2px 0 6px 0;">Charred &amp; caramelized &mdash; the star</div>
+
+      <div class="row"><span class="label">Teriyaki Drizzle</span><span class="leader"></span></div>
+      <div style="font-size:14px; color:#9a7b3a; margin:-2px 0 6px 0;">Sweet-savory sauce</div>
+
+      <div class="row"><span class="label">Melted Swiss Cheese</span><span class="leader"></span></div>
+      <div style="font-size:14px; color:#9a7b3a; margin:-2px 0 6px 0;">Mild, nutty, smooth melt</div>
+
+      <div class="row"><span class="label">Beef Patty</span><span class="leader"></span></div>
+      <div style="font-size:14px; color:#9a7b3a; margin:-2px 0 6px 0;">Juicy 80/20 ground beef</div>
+
+      <div class="row"><span class="label">Lettuce</span><span class="leader"></span></div>
+      <div style="font-size:14px; color:#9a7b3a; margin:-2px 0 6px 0;">Fresh, crisp base</div>
+    </div>
+
+  </div>
+
+  <div style="margin-top:20px; font-size:14px; color:#b08020; background:#fff3d4;
+       border-radius:8px; padding:11px 16px;">
+    Illustration only (not a photo of an actual product). Layers shown top to bottom.
+  </div>
+</div>
+</body>
+</html>

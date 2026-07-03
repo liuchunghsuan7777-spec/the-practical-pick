@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif; }
+</style>
+</head>
+<body>
+<div id="card" style="width:800px; height:420px; position:relative; overflow:hidden;
+     background:linear-gradient(135deg,#ffe9a8 0%,#ffd166 45%,#ffb347 100%);
+     font-family:-apple-system,'Segoe UI','Helvetica Neue',Arial,sans-serif;">
+
+  <!-- decorative pineapple slices background -->
+  <div style="position:absolute; top:-40px; right:-40px; width:150px; height:150px; border-radius:50%;
+       background:#ffe066; border:10px solid #f4a300; opacity:.55;"></div>
+  <div style="position:absolute; bottom:-50px; left:-30px; width:120px; height:120px; border-radius:50%;
+       background:#ffe066; border:8px solid #f4a300; opacity:.45;"></div>
+
+  <!-- left text -->
+  <div style="position:absolute; left:48px; top:0; bottom:0; width:440px;
+       display:flex; flex-direction:column; justify-content:center; gap:14px;">
+    <div style="display:inline-block; align-self:flex-start; background:#e23b3b; color:#fff;
+         font-size:18px; font-weight:800; padding:7px 16px; border-radius:30px;
+         box-shadow:0 3px 8px rgba(0,0,0,.15);">SWEET MEETS SAVORY</div>
+    <div style="font-size:54px; font-weight:900; line-height:1.15; color:#3a2400;
+         text-shadow:0 2px 0 rgba(255,255,255,.5);">
+      Hawaiian Burger
+    </div>
+    <div style="font-size:23px; font-weight:700; color:#7a4a00; line-height:1.45;">
+      Grilled Pineapple &middot; Swiss Cheese<br>Teriyaki Drizzle
+    </div>
+    <div style="font-size:16px; font-weight:700; color:#b5651d; margin-top:2px;">
+      Easy Recipe &middot; Best Cheese &middot; Pro Tips
+    </div>
+  </div>
+
+  <!-- right burger illustration -->
+  <div style="position:absolute; right:60px; top:50%; transform:translateY(-50%);
+       width:230px; display:flex; flex-direction:column; align-items:center;
+       filter:drop-shadow(0 10px 14px rgba(120,70,0,.35));">
+
+    <!-- top bun -->
+    <div style="width:220px; height:96px; background:radial-gradient(circle at 50% 120%,#f6b352,#e8943a);
+         border-radius:120px 120px 26px 26px; position:relative; overflow:hidden;">
+      <div style="position:absolute; left:70px; top:22px; width:11px; height:6px; background:#fff4d6; border-radius:50%; transform:rotate(-20deg);"></div>
+      <div style="position:absolute; left:110px; top:14px; width:11px; height:6px; background:#fff4d6; border-radius:50%; transform:rotate(15deg);"></div>
+      <div style="position:absolute; left:140px; top:26px; width:11px; height:6px; background:#fff4d6; border-radius:50%; transform:rotate(-10deg);"></div>
+    </div>
+    <!-- pineapple ring -->
+    <div style="width:206px; height:22px; background:#ffd84d; margin-top:-2px;
+         border-radius:6px; position:relative;">
+      <div style="position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+           width:40px; height:14px; background:#f2c12e; border-radius:6px;"></div>
+    </div>
+    <!-- teriyaki drizzle -->
+    <div style="width:212px; height:18px; background:#5a3215; margin-top:-1px;
+         clip-path:polygon(0 0,100% 0,100% 55%,88% 100%,76% 55%,62% 100%,50% 55%,38% 100%,24% 55%,12% 100%,0 55%);"></div>
+    <!-- swiss cheese drip -->
+    <div style="width:214px; height:18px; background:#ffce4d; margin-top:-1px;
+         clip-path:polygon(0 0,100% 0,100% 55%,88% 100%,76% 55%,62% 100%,50% 55%,38% 100%,24% 55%,12% 100%,0 55%);"></div>
+    <!-- meat patty -->
+    <div style="width:208px; height:32px; background:#7a4a2b; margin-top:-2px; border-radius:8px;"></div>
+    <!-- lettuce -->
+    <div style="width:214px; height:16px; background:#7cc24a; margin-top:-2px;
+         clip-path:polygon(0 0,100% 0,100% 40%,90% 100%,78% 40%,66% 100%,54% 40%,42% 100%,30% 40%,18% 100%,6% 40%,0 70%);"></div>
+    <!-- bottom bun -->
+    <div style="width:206px; height:38px; background:linear-gradient(#eaa54a,#d98b34); margin-top:-2px;
+         border-radius:0 0 60px 60px;"></div>
+  </div>
+
+</div>
+</body>
+</html>

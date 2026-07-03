@@ -1,0 +1,60 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#fff;}
+  .col{flex:1;display:flex;flex-direction:column;align-items:center;
+    background:#fff;border:2px solid #ffe2c2;border-radius:16px;padding:24px 18px;}
+  .col.hot{border-color:#ff7a00;box-shadow:0 8px 22px rgba(255,122,0,.16);}
+  .af{position:relative;border-radius:18px;background:linear-gradient(160deg,#3a3a40,#1f1f24);
+    box-shadow:0 10px 22px rgba(0,0,0,.18);}
+  .af .p{position:absolute;top:12%;left:50%;transform:translateX(-50%);
+    border-radius:6px;background:#101015;}
+  .af .h{position:absolute;bottom:22%;left:50%;transform:translateX(-50%);
+    height:7px;border-radius:5px;background:#5a5a62;}
+  .qt{font-size:30px;font-weight:900;color:#1a1a1a;margin-top:18px;}
+  .qsub{font-size:15px;font-weight:700;color:#ff7a00;margin-top:2px;text-transform:uppercase;letter-spacing:.5px;}
+  .ppl{font-size:26px;margin-top:14px;letter-spacing:2px;line-height:1;}
+  .feeds{font-size:15px;color:#666;margin-top:8px;text-align:center;line-height:1.45;}
+  .badge{font-size:12px;font-weight:800;color:#fff;background:#ff7a00;border-radius:20px;
+    padding:4px 12px;margin-top:12px;}
+</style></head>
+<body>
+<div id="card" style="width:800px;box-sizing:border-box;padding:36px 34px;
+   background:linear-gradient(180deg,#fff7ef 0%,#ffffff 100%);
+   font-family:-apple-system,'Helvetica Neue',Arial,sans-serif;">
+  <div style="font-size:27px;font-weight:900;color:#1a1a1a;margin-bottom:24px;text-align:center;">What size air fryer do you need?</div>
+  <div style="display:flex;gap:18px;align-items:stretch;">
+    <div class="col">
+      <div class="af" style="width:82px;height:90px;">
+        <div class="p" style="width:40px;height:16px;"></div>
+        <div class="h" style="width:40px;"></div>
+      </div>
+      <div class="qt">~3 qt</div>
+      <div class="qsub">Compact</div>
+      <div class="ppl">👤👤</div>
+      <div class="feeds">1&ndash;2 people<br>Snacks &amp; sides</div>
+    </div>
+    <div class="col hot">
+      <div class="af" style="width:108px;height:118px;">
+        <div class="p" style="width:54px;height:20px;"></div>
+        <div class="h" style="width:54px;"></div>
+      </div>
+      <div class="qt">5&ndash;6 qt</div>
+      <div class="qsub">Sweet spot</div>
+      <div class="ppl">👤👤👤👤</div>
+      <div class="feeds">Family of 3&ndash;4<br>Everyday dinners</div>
+      <div class="badge">MOST RECOMMENDED</div>
+    </div>
+    <div class="col">
+      <div class="af" style="width:140px;height:150px;">
+        <div class="p" style="width:66px;height:24px;"></div>
+        <div class="h" style="width:70px;"></div>
+      </div>
+      <div class="qt">8+ qt</div>
+      <div class="qsub">Large</div>
+      <div class="ppl">👤👤👤👤👤👤</div>
+      <div class="feeds">Big family / batch<br>Whole chicken, pizza</div>
+    </div>
+  </div>
+</div>
+</body></html>

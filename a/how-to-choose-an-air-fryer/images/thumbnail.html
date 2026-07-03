@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#fff;}
+  .af-body{position:relative;width:150px;height:150px;border-radius:22px;
+    background:linear-gradient(160deg,#3a3a40 0%,#1f1f24 100%);
+    box-shadow:0 14px 30px rgba(0,0,0,.25);}
+  .af-panel{position:absolute;top:18px;left:50%;transform:translateX(-50%);
+    width:64px;height:30px;border-radius:7px;background:#101015;
+    display:flex;align-items:center;justify-content:center;}
+  .af-panel span{color:#ff8a3c;font-size:14px;font-weight:800;font-family:monospace;letter-spacing:1px;}
+  .af-drawer{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);
+    width:120px;height:66px;border-radius:14px;background:#2c2c32;border:2px solid #45454d;}
+  .af-handle{position:absolute;bottom:34px;left:50%;transform:translateX(-50%);
+    width:60px;height:9px;border-radius:6px;background:#5a5a62;}
+</style></head>
+<body>
+<div id="card" style="width:800px;height:420px;box-sizing:border-box;
+   display:flex;align-items:center;gap:30px;
+   padding:46px 50px;background:linear-gradient(135deg,#fff3e6 0%,#ffffff 68%);
+   border-left:14px solid #ff7a00;
+   font-family:-apple-system,'Helvetica Neue',Arial,sans-serif;">
+  <div style="flex:1;display:flex;flex-direction:column;gap:16px;">
+    <div style="font-size:18px;font-weight:800;color:#ff7a00;letter-spacing:1px;text-transform:uppercase;">Buying Guide for Beginners</div>
+    <div style="font-size:48px;font-weight:900;line-height:1.18;color:#1a1a1a;">
+      How to Choose<br>an Air Fryer
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:6px;">
+      <span style="background:#fff;border:2px solid #ffd9b3;color:#c25e00;font-size:16px;font-weight:700;padding:8px 16px;border-radius:30px;">Size</span>
+      <span style="background:#fff;border:2px solid #ffd9b3;color:#c25e00;font-size:16px;font-weight:700;padding:8px 16px;border-radius:30px;">Basket vs Oven</span>
+      <span style="background:#fff;border:2px solid #ffd9b3;color:#c25e00;font-size:16px;font-weight:700;padding:8px 16px;border-radius:30px;">Features</span>
+    </div>
+  </div>
+  <div style="flex:0 0 auto;display:flex;align-items:center;justify-content:center;">
+    <div class="af-body">
+      <div class="af-panel"><span>180°</span></div>
+      <div class="af-drawer"></div>
+      <div class="af-handle"></div>
+    </div>
+  </div>
+</div>
+</body></html>

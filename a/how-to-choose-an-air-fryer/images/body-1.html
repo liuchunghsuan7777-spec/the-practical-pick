@@ -1,0 +1,52 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:#fff;}
+  .icon{flex:1;display:flex;flex-direction:column;align-items:center;gap:10px;}
+  .icon .dot{width:62px;height:62px;border-radius:50%;background:#fff;border:3px solid #ff7a00;
+    display:flex;align-items:center;justify-content:center;font-size:30px;}
+  .icon .lab{font-size:17px;font-weight:800;color:#1a1a1a;}
+  .af-body{position:relative;width:210px;height:200px;border-radius:26px;
+    background:linear-gradient(160deg,#3a3a40 0%,#1f1f24 100%);
+    box-shadow:0 16px 34px rgba(0,0,0,.22);}
+  .af-panel{position:absolute;top:22px;left:50%;transform:translateX(-50%);
+    width:92px;height:40px;border-radius:9px;background:#101015;
+    display:flex;align-items:center;justify-content:center;}
+  .af-panel span{color:#ff8a3c;font-size:18px;font-weight:800;font-family:monospace;letter-spacing:1px;}
+  .af-drawer{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);
+    width:168px;height:96px;border-radius:18px;background:#2c2c32;border:3px solid #45454d;
+    display:flex;align-items:center;justify-content:center;}
+  .fries{display:flex;gap:5px;align-items:flex-end;}
+  .fries i{display:block;width:8px;background:#f4b740;border-radius:3px;}
+  .af-handle{position:absolute;bottom:44px;left:50%;transform:translateX(-50%);
+    width:84px;height:11px;border-radius:7px;background:#5a5a62;z-index:2;}
+</style></head>
+<body>
+<div id="card" style="width:800px;box-sizing:border-box;padding:40px 44px;
+   background:linear-gradient(180deg,#fff7ef 0%,#ffffff 100%);
+   font-family:-apple-system,'Helvetica Neue',Arial,sans-serif;">
+  <div style="display:flex;gap:18px;margin-bottom:30px;">
+    <div class="icon"><div class="dot">📏</div><div class="lab">Size</div></div>
+    <div class="icon"><div class="dot">🍳</div><div class="lab">Basket vs Oven</div></div>
+    <div class="icon"><div class="dot">⚙️</div><div class="lab">Features</div></div>
+  </div>
+  <div style="display:flex;align-items:center;justify-content:center;gap:36px;
+     background:#fff;border:2px solid #ffe2c2;border-radius:18px;padding:32px 40px;">
+    <div class="af-body">
+      <div class="af-panel"><span>400°F</span></div>
+      <div class="af-handle"></div>
+      <div class="af-drawer">
+        <div class="fries">
+          <i style="height:42px"></i><i style="height:54px"></i><i style="height:38px"></i>
+          <i style="height:50px"></i><i style="height:46px"></i><i style="height:56px"></i>
+          <i style="height:40px"></i>
+        </div>
+      </div>
+    </div>
+    <div style="max-width:300px;">
+      <div style="font-size:30px;font-weight:900;color:#1a1a1a;line-height:1.25;">Pick your air fryer in 3 steps</div>
+      <div style="font-size:19px;color:#666;margin-top:14px;line-height:1.55;">Match the <b style="color:#c25e00;">size</b> to your household, the <b style="color:#c25e00;">style</b> to your kitchen, and the <b style="color:#c25e00;">features</b> to how hands-off you want to be.</div>
+    </div>
+  </div>
+</div>
+</body></html>
